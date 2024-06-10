@@ -1,0 +1,348 @@
+body{
+    background-color: #e7e7e7;
+}
+
+*{
+    margin: 0px;
+    font-family: Arial,sans-serif;
+    border: border-box;
+}
+
+/** Box 1 **/
+.navbar{
+    height: 60px;
+    background-color: #141d27;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** Box 2 **/
+
+.nav-address{
+    margin: 10px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.india{
+    margin-left: 3px;
+    margin-top: 1px;
+    font-weight: bold;
+}
+
+/** Box 3 **/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 950px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #e7e7e7;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 45px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+
+.search-icon{
+    border: none;
+    width: 48px;
+    color: #141d27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+/** Box 4 **/
+
+span{
+    font-size: 15px;
+}
+
+.nav-second{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/** Box 5 **/
+
+/** Box 6 **/
+
+.cart-icon{
+    font-size: 29px;
+}
+
+.cart-text{
+    font-weight: bold;
+}
+
+/**    Pannel   **/
+
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.pannel-options p {
+    display: inline;
+    color: white;
+}
+
+.pannel-options{
+    width: 450px;
+    margin-left: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pannel-all{
+    margin-left: 20px;
+}
+
+.pannel-all i{
+    font-size: 18px;
+}
+
+/** Hero Section **/
+
+.hero-section{
+    height: 600px;
+    background-image: url(Main_Bg_Amazon.jpg);
+    background-size:cover;
+    margin-left: 40px;
+    margin-right: 40px;
+  /* For Fade From Bottom */
+ /* -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
+    mask-image: linear-gradient(#000, rgba(0,0,0,0)); */
+}
+
+/** Shop Section **/
+
+.shop-section{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-evenly;
+    position: relative;
+    top: -350px;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    height: 420px;
+    width: 350px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shop-text{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #141d27;
+}
+
+.imgshop{
+    height: 350px;
+    width: 300px;
+    position: relative;
+    top: 25px;
+    right: -25px;
+}
+
+.shop-image1{
+    background-image: url(asus_tuf.png);
+    background-size: contain;
+}
+
+.shop-image2{
+    background-image: url(cpu-cabinet.jpeg);
+    background-size: 330px;
+
+}
+
+.shop-image3{
+    background-image: url(ps5.jpeg);
+    background-size: 320px;
+    height: 320px;
+}
+
+.shop-image4{
+    background-image: url(pc.jpeg);
+    background-size: 310px;
+    height: 340px;
+}
+
+l{
+    position: relative;
+    bottom: -330px;
+    font-size: 13px;
+    left: -2px;
+    color: #007185;
+}
+
+.see-more{
+    text-decoration: none;
+    color: #007185;
+}
+
+.see-more:hover{
+    color: rgb(221, 125, 0);
+}
+
+/** Shop Section 2 **/
+
+.shop-section2{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-evenly;
+    position: relative;
+    top: -330px;
+}
+
+.shop-image5{
+    background-image: url(chair.jpeg);
+    background-size: 330px;
+}
+
+.shop-image6{
+    background-image: url(rtx_4090.jpeg);
+    background-size: 320px;
+
+}
+
+.shop-image7{
+    background-image: url(valo_keychain.jpeg);
+    background-size: contain;
+    height: 320px;
+}
+
+.shop-image8{
+    background-image: url(luffy.jpeg);
+    background-size: 320px;
+    height: 340px;
+}
+
+/** Footer **/
+
+.foot-pannel1{
+    background-color: #222f3d;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.foot-pannel2{
+    background-color: #141d27;
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+ul a{
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.foot-heading{
+    font-weight: bold;
+}
+
+.list-footer{
+    position: relative;
+    top: 40px;
+}
+
+.footer-texts{
+    text-decoration: none;
+    color: #d4d3d3;
+}
+
+.footer-texts:hover{
+    text-decoration: underline;
+}
+
+.foot-pannel3{
+    height: 68px;
+    background-color: #141d27;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.11);
+    display: flex;
+    justify-content: center;
+}
+
+.foot-pannel4{
+    background-color: #141d27;
+    height: 77px;
+}
+
+.foot-copyright-text1{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.foot-copyright-text2{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.foot-text-links{
+    color: white;
+    text-decoration: none;
+}
+
+.foot-text-links:hover{
+    text-decoration: underline;
+}
